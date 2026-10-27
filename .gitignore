@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.env
+checkpoints/
+runs/
+traces/
+viewer_data/
+*.egg-info/

@@ -1,0 +1,21 @@
+# Python >= 3.10. PyTorch with CUDA: install the build for your CUDA version first (https://pytorch.org)
+torch>=2.4
+torchvision
+av                      # video decoding for vlm_query(video_path=...) clips
+transformers>=4.57      # Qwen3-VL support
+accelerate
+openai>=1.40
+python-dotenv
+numpy
+pandas
+pyarrow
+Pillow
+opencv-python
+decord
+scikit-learn
+# VideoCLIP-XL (semantic search) and C-RADIO (scene grouping) dependencies
+timm
+einops
+ftfy
+regex
+huggingface_hub
